@@ -11,10 +11,11 @@
 </head>
 <body>
     <div id="app">
-        <img v-bind:src="picture" :alt="`${firstName} ${lastName}`">
+        <!-- When using v-bind:attribute_name, it can be written :attribute -->
+        <img :class="gender" v-bind:src="picture" :alt="`${firstName} ${lastName}`">
         <h1>{{firstName}} {{lastName}}</h1>
         <h3>Email: {{email}}</h3>
-        <button>Get Random User</button>
+        <button :class="gender">Get Random User</button>
     </div>
 
     <!-- If I was to put the "Hello {{firstName}}" out of the app div, it wouldn't show the name, 'cause, in the app.js, the app function is being mounted inside of the div app -->
