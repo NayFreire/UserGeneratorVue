@@ -31,13 +31,13 @@
     }
 
     .male {
-        border-color: steelblue;
-        background-color: steelblue;
+        border-color: rgb(84, 145, 195);
+        background-color: rgb(36, 68, 250);
     }
 
     .female {
         border-color: pink;
-        background-color: pink;
+        background-color: rgb(245, 140, 157);
         color: #333;
     }
 
